@@ -1,0 +1,21 @@
+{
+  "name": "collaborative_workshop",
+  "version": "1.0.0",
+  "description": "Taller colaborativo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node start.js",
+    "watch": "nodemos start.js --ignore node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
