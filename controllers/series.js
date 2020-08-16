@@ -32,7 +32,7 @@ function findSerie(req,res,next){
     }).catch(err =>{
         req.body.error = err;
         netx();
-    })       
+    })     
 }
 
 function updateSerie(req,res){
